@@ -1,1 +1,8 @@
-Z
+body {
+font-size: 30pt;
+color: blue;
+}
+p {
+color: green;
+  font-size: 20pt;
+}
