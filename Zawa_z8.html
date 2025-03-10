@@ -1,13 +1,49 @@
 <html>
 <head>
-<title>styl wpisany</title>
-
+<title>wewnetrzny arkusz stylow</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <style>
+ h1 {
+ color: blue;
+ font-size: 30px;
+ }
+</style>
 </head>
 <body>
-<br>Wenwetrzny arkusz stylow jest wstawiany w sekcji "head" dokumentuHTML, wenwatrz znacznika "style"</head></br>
-<br>Skladnia teoretyczna zawiera style selektor i cehce wartosc</br>
-<br>Selektory moga byc Selektor typu, Selektor klasy, selektor id, selektor atrybutow</br>
+<h1><li>gdzie jest wstawiany</li></h1> <br>
+Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami head a
+/head). Można go zastosować, gdy elementy które pragniemy poddać formatowaniu,
+występują wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż
+domyślne).  <br>
+<h1><li>składnia teoretyczna (w ramce, konieczne wcięcia)</li></h1> <br>
+<textarea rows="35" cols=50">
+<head>
+      (...)
+    <style type="text/css">
+   /* <![CDATA[ */
+     selektor1 { cecha: wartość; cecha2: wartość2... }
+     selektor2 { cecha: wartość; cecha2: wartość2... }
+     (...)
+ /* ]]> */
+ </style>
+    (...)
+</head>
+</textarea> <br>
+<h1><li>jakie mogą być selektory</li></h1> <br>
+gdzie: w sposób wyróżniony (pogrubieniem) zaznaczono elementy składowe wewnętrznego
+arkusza stylów. Natomiast w miejsce kropek (...) można wpisać dalsze polecenia.
+Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka
+tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi
+znacznikami, nadajemy atrybuty formatowania opisane w arkuszu.
+<br>
 
-<br>Cechy wartosci moga byc Cechy (wlasciwosci CSS) np color font size, background-color,margin,padding a wartosci zaleza od cechy n dla color moga byc red lub #ff0000
-</br>
+<h1><li>jakie mogą być cechy i wartości.</li></h1> <br>
+Jako "cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty
+formatowania nam chodzi (opisane w kolejnych rozdziałach).
+Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu.
+Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy
+rozdzielone średnikami. <br>
+
+
 </body>
+</html>
