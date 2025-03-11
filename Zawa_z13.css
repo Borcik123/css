@@ -1,17 +1,8 @@
-<html>
-<head>
-<title>styl zewnetrzny</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
- <LINK href="Zawa_z13.css" rel="stylesheet"
-type="text/CSS">
-</head>
-<body bgcolor-"blue">
-    <p>:3 słodka mina</p>
-    :D uśmiech
-    <p>:O zaskoczenie</p>
-    :| neutralny wyraz twarzy
-    <p>;) oczko</p>
-    :P wytknięty język
-
-</body>
-</html>
+body{
+    color: blue;
+    font-size: 38mm;
+}
+p{
+    color: green;
+    font-size: 48mm;
+}
